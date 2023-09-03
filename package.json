@@ -1,0 +1,27 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "eon-ui",
+    "docs"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "prepublishOnly": "lerna run prepublishOnly",
+    "prepare": "lerna run prepare",
+    "version": "lerna version",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^7.2.0"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "4.0.0-rc.50"
+  }
+}
