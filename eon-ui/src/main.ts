@@ -1,6 +1,9 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import EonUI from './components/index'
+import './styles/index.scss'
+
+import './assets/base.css'
+
+createApp(App).use(EonUI).mount('#app')

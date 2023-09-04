@@ -1,6 +1,5 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
-  "npmClient": "yarn",
-  "packages": ["eon-ui", "docs"]
+  "npmClient": "pnpm"
 }
