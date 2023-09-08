@@ -36,7 +36,7 @@ const handleChange = () => {
 
 <template>
   <div :class="['eon-collapse-item', { 'eon-collapse-item-active': isActive }]">
-    <div class="ivy-collapse-item__header" @click="handleChange">
+    <div class="eon-collapse-item__header" @click="handleChange">
       <Icon
         name="arrow-right"
         :class="['eon-icon-right', `eon-collapse-arrow-${arrowPosition}`]"
@@ -47,7 +47,7 @@ const handleChange = () => {
     </div>
     <CollapseTransition>
       <div v-show="isActive" class="eon-collapse-item__wrap">
-        <div class="ivy-collapse-item__wrap-box"><slot /></div>
+        <div class="eon-collapse-item__wrap-box"><slot /></div>
       </div>
     </CollapseTransition>
   </div>
