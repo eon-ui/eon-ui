@@ -18,5 +18,10 @@
   },
   "volta": {
     "node": "18.17.1"
+  },
+  "dependencies": {
+    "eon-ui": "workspace:^",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   }
 }

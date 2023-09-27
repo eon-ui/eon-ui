@@ -1,7 +1,9 @@
 {
   "name": "eon-ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "main": "dist/eon-ui.js",
+  "module": "dist/eon-ui.mjs",
   "scripts": {
     "dev": "vite  --port 10002",
     "build": "run-p type-check build-only",
