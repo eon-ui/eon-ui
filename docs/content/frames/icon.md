@@ -1,5 +1,5 @@
 ---
-layout: mobile
+layout: frame
 ---
 
 # Icon 图标
